@@ -115,7 +115,7 @@ int _pdo_pgsql_error(pdo_dbh_t *dbh, pdo_stmt_t *stmt, int errcode, const char *
 
 static void _pdo_pgsql_notice(pdo_dbh_t *dbh, const char *message) /* {{{ */
 {
-/*	pdo_pgsql_db_handle *H = (pdo_pgsql_db_handle *)dbh->driver_data; */
+	// implement stuff
 }
 /* }}} */
 
